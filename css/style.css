@@ -101,6 +101,14 @@ Banner part start
 .banner .banner-button:hover{
     background: red;
 }
+.banner .banner-button2 {
+    position: relative;
+}
+.banner .banner-button2 .button-icon{
+    position: absolute;
+    top: 19px;
+    right: 24px;
+}
 /*=======================
 Banner part end
 ========================*/
