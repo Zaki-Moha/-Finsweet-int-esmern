@@ -1,4 +1,15 @@
 
+
+/*Common css*/
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/*Common css*/
 /*=======================
 navber part start
 ========================*/
@@ -38,7 +49,9 @@ nav{
 }
 
 .navber_button:hover{
-    background: red;
+    background: #fcd980;
+    border: 1px solid transparent;
+    color: black;
 }
 
 
@@ -81,14 +94,20 @@ Banner part start
 }
 .banner .banner-button{
     background: #fcd980;
-    text-decoration: none;
     padding: 16px 56px;
     border-radius: 40px;
     color: black;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     transition: .4s;
+    border: 1px solid white;
 
+}
+.banner .banner-button:hover{
+    background: transparent;
+    border: 1px solid transparent;
+    color: white;
+    border-color: white;
 }
 .banner .banner-button2{
     text-decoration: none;
@@ -98,9 +117,7 @@ Banner part start
     font-size: 16px;
 
 }
-.banner .banner-button:hover{
-    background: red;
-}
+
 .banner .banner-button2 {
     position: relative;
 }
