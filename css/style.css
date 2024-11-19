@@ -359,3 +359,99 @@ Feature  part Start
 /*==========================
 Feature  part end
 ============================*/
+/*==========================
+About  part Start
+============================*/
+.About{
+    padding: 130px;
+    background: rgb(244, 246, 252, 0.5);
+}
+
+.About h2{
+    font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    font-weight: 600;
+    width: 327px;
+
+}
+.About .para_one{
+    padding-top: 16px ;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+    font-weight: 400;
+    width: 327px;
+
+}
+.About h3{
+    font-size: 32px;
+    color: #282938;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 48px;
+
+
+
+}
+.About .Profile_area{
+    display: flex;
+    align-items: flex-start;
+    column-gap: 14px;
+    padding-top: 48px;
+}
+.About .Profile_area h6{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+
+}
+.About .Profile_area .para_two{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #282938;
+
+
+}
+/*==========================
+About  part end
+============================*/
+
+/*==========================
+FAQ  part START
+============================*/
+.FAQ{
+    padding: 128px 0px;
+}
+
+.accordion-header .span{
+    padding-right: 40px;
+    font-size: 20px;
+    color: blue;
+}
+.accordion-header .span2{
+    padding-right: 40px;
+    font-size: 20px;
+    color: blue;
+}
+.accordion-header .span3{
+    padding-right: 40px;
+    font-size: 20px;
+    color: blue;
+}
+.accordion-header .span4{
+    padding-right: 40px;
+    font-size: 20px;
+    color: blue;
+}
+.accordion-header .span5{
+    padding-right: 40px;
+    font-size: 20px;
+    color: blue;
+}
+/*==========================
+FAQ  part end
+============================*/
