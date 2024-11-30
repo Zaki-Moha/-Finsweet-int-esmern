@@ -151,8 +151,15 @@ Banner part start
 .banner .banner-button2 .button-icon{
     position: absolute;
     top: 22px;
-    right: 24px;
+    right: 56px;
+    opacity: 0;
+    transition: .4s;
 }
+.banner .banner-button2:hover .button-icon{
+    right: 22px;
+    opacity: 1;
+}
+
 /*=======================
 Banner part end
 ========================*/
@@ -199,6 +206,20 @@ Work part start
 
 
 }
+.work .Work-Icon{
+    position: relative;
+}
+.work .Work-Icon .button-icon{
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    opacity: 0;
+    transition: .4s;
+}
+.work .Work-Icon:hover .button-icon{
+    right: -25px;
+    opacity: 1;
+}
 /*==========================
 Work part end
 ============================*/
@@ -233,6 +254,21 @@ Project part start
 .project p i{
     margin-left: 10px;
 }
+.project .IconProject {
+    position: relative;
+}
+.project .IconProject .button-icon{
+    position: absolute;
+    top: 6px;
+    right: -1px;
+    opacity: 0;
+    transition: .4s;
+}
+.project .IconProject:hover .button-icon{
+    right: -22px;
+    opacity: 1;
+}
+
 .project img{
     width: 100%;
 }
@@ -346,7 +382,37 @@ Project part start
     line-height: 28px;
 
 
-}    
+}
+.project .portfolio{
+    position: relative;
+}
+.project .portfolio .button-icon{
+    position: absolute;
+    top: 49px;
+    right: 1px;
+    opacity: 0;
+    transition: .4s;
+}
+.project .portfolio:hover .button-icon{
+    right:  -22px;
+    opacity: 1;
+
+}
+.project .projectIcon{
+    position: relative;
+}
+.project .projectIcon .button-icon{
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    opacity: 0;
+    transition: .4s;
+}
+.project .projectIcon:hover .button-icon{
+    right:  -22px;
+    opacity: 1;
+
+}
 /*==========================
 Project part end
 ============================*/
@@ -593,6 +659,20 @@ Blog  part start
 .blog .read-button i{
     padding-left: 30px;
 }
+.blog .read-button{
+    position: relative;
+}
+.blog .read-button .button-icon{
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    opacity: 0;
+    transition: .4s;
+}
+.blog .read-button:hover .button-icon{
+    right: -22px;
+    opacity: 1;
+}
 /*==========================
 Blog  part end
 ============================*/
@@ -708,6 +788,23 @@ padding: 96px;
     padding-top: 30px;
 
 
+}
+.contact .All-Input a{
+    color: white;
+}
+.contact .InputIcon{
+    position: relative;
+}
+.contact .InputIcon .button-icon{
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    opacity: 0;
+    transition: .4s;
+}
+.contact .InputIcon:hover .button-icon{
+    right: -22px;
+    opacity: 1;
 }
 /*==========================
 Contact  part end
